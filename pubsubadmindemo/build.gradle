@@ -1,11 +1,11 @@
 plugins {
-	id 'org.springframework.boot' version '2.6.4'
+	id 'org.springframework.boot' version '2.6.8'
 	id 'io.spring.dependency-management' version '1.0.11.RELEASE'
 	id 'java'
 }
 
 group = 'com.educative'
-version = '0.0.1-SNAPSHOT'
+version = '1.0'
 sourceCompatibility = '1.8'
 
 repositories {
@@ -13,8 +13,8 @@ repositories {
 }
 
 ext {
-	set('springCloudGcpVersion', "3.1.0")
-	set('springCloudVersion', "2021.0.1")
+	set('springCloudGcpVersion', "3.3.0")
+	set('springCloudVersion', "2021.0.3")
 }
 
 dependencies {
